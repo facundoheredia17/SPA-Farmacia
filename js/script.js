@@ -102,5 +102,10 @@ jQuery(document).ready(function($){
     });
   });
 
+	document.querySelector('.icon').addEventListener('click', function() {
+  const menu = document.querySelector('.menu-click');
+  menu.classList.toggle('active');
+});
+
   
 });
